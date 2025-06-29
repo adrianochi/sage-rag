@@ -1,0 +1,83 @@
+[
+  {
+    "id": "wiki_Alessandro_Magno",
+    "titolo": "Alessandro Magno",
+    "materia": "storia",
+    "livello": "superiori",
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Magno",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:41:54.855925"
+  },
+  {
+    "id": "wiki_Preistoria",
+    "titolo": "Preistoria",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Preistoria",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:46:22.010355"
+  },
+  {
+    "id": "wiki_Paleolitico",
+    "titolo": "Paleolitico",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Paleolitico",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:47:37.532883"
+  },
+  {
+    "id": "wiki_Neolitico",
+    "titolo": "Neolitico",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Neolitico",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:48:02.949681"
+  },
+  {
+    "id": "wiki_Età_dei_metalli",
+    "titolo": "Età dei metalli",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Età_dei_metalli",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:48:49.558013"
+  },
+  {
+    "id": "wiki_Sumeri",
+    "titolo": "Sumeri",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Sumeri",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:49:34.520426"
+  },
+  {
+    "id": "wiki_Antico_Egitto",
+    "titolo": "Antico Egitto",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Antico_Egitto",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:50:00.267639"
+  },
+  {
+    "id": "wiki_Babilonia_(regione_storica)",
+    "titolo": "Babilonesi",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Babilonia_(regione_storica)",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:50:42.140527"
+  },
+  {
+    "id": "wiki_Assiria",
+    "titolo": "Assiri",
+    "materia": "storia",
+    "livello": "elementari",
+    "fonte": "https://it.wikipedia.org/wiki/Assiria",
+    "formato": "html",
+    "salvato_il": "2025-06-29T17:51:29.684038"
+  }
+]
