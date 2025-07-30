@@ -1,22 +1,29 @@
 import os
 import chromadb
 from chromadb.config import Settings
-from sentence_transformers import SentenceTransformer
-import ollama
 from chromadb import PersistentClient
+from sentence_transformers import SentenceTransformer
+from langchain_groq import ChatGroq
+from langchain.schema import HumanMessage, SystemMessage
 
-# Config
+# === CONFIG ===
 CHROMA_DIR = "chroma_db"
 CHUNK_LIMIT = 4  # massimo numero di chunk da includere
 
-# Init
+# === INIT ===
 print("🔍 Loading embedding model and ChromaDB...")
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 
 chroma_client = PersistentClient(path=CHROMA_DIR)
 collection = chroma_client.get_or_create_collection(name="educational_chunks")
 
-# ---------------------------------------------------------------
+# === LLM ===
+llm = ChatGroq(
+    model="llama3-8b-8192",  # puoi cambiare in "mixtral-8x7b-32768" se vuoi
+    api_key=os.getenv("GROQ_API_KEY")  # deve essere settata nel tuo ambiente
+)
+
+# === FUNCTIONS ===
 def get_top_chunks(query: str, k: int = CHUNK_LIMIT):
     q_emb = embedder.encode(query).tolist()
     res = collection.query(query_embeddings=[q_emb],
@@ -37,16 +44,14 @@ def build_context(docs, metas):
     return "\n\n".join(parts)
 
 def ask_llm(prompt: str) -> str:
-    response = ollama.chat(
-        model="llama3",
-        messages=[
-            {"role": "system", "content": "Sei un assistente educativo. Rispondi in modo chiaro e semplice usando solo le informazioni fornite."},
-            {"role": "user", "content": prompt},
-        ]
-    )
-    return response["message"]["content"]
+    messages = [
+        SystemMessage(content="Sei un assistente educativo. Rispondi in modo chiaro e semplice usando solo le informazioni fornite."),
+        HumanMessage(content=prompt)
+    ]
+    response = llm(messages)
+    return response.content
 
-# ---------------------------------------------------------------
+# === MAIN LOOP ===
 if __name__ == "__main__":
     print("Fai una domanda (\"exit\" per uscire)")
 
