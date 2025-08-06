@@ -91,7 +91,7 @@ FORM_HTML = """
         <input type="text" name="type" value="quiz"><br><br>
         <label>Categoria:</label><br>
         <input type="text" name="category" value="scienze"><br><br>
-        <label>Range età (min,max):</label><br>
+        <label>Range età (min,max)([min age]10 elementari, 13 medie, + superiori):</label><br>
         <input type="text" name="ageRange" value="7,10"><br><br>
         <label>Difficoltà (1-10):</label><br>
         <input type="number" name="difficulty" value="3"><br><br>
