@@ -1,0 +1,8 @@
+{
+  "type": "quiz",
+  "category": "storia",
+  "question": "Chi era il comandante dell'esercito persiano?",
+  "difficulty": 3,
+  "options": ["Dario III", "Alessandro Magno", "Filippo II di Macedonia"],
+  "answer": "Dario III"
+}

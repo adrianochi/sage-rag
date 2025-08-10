@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "type",
+    "category",
+    "question",
+    "difficulty",
+    "options",
+    "answer"
+  ],
+  "properties": {
+    "type": { "type": "string", "enum": ["quiz"] },
+    "category": { "type": "string" },
+    "question": { "type": "string" },
+    "difficulty": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "options": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 2
+    },
+    "answer": { "type": "string" }
+  }
+}
