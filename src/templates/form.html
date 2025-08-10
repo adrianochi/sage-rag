@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<h1>Genera Quiz</h1>
+<form method="post" action="/form" id="quizForm">
+    <label>Tipo quiz:</label>
+    <select name="type">
+        <option value="quiz">Quiz</option>
+        <option value="matching">Matching</option>
+        <option value="memory">Memory</option>
+        <option value="sorting">Sorting</option>
+    </select>
+
+    <label>Categoria:</label>
+    <select name="category">
+        <option value="matematica">Matematica</option>
+        <option value="storia">Storia</option>
+        <option value="scienze">Scienze</option>
+        <option value="geografia">Geografia</option>
+        <option value="arte">Arte</option>
+        <option value="educazione_civica">Educazione Civica</option>
+    </select>
+
+    <label>Classe:</label>
+    <select name="classe" id="classe">
+        <option value="prim">Elementari</option>
+        <option value="sec1">Medie</option>
+        <option value="sec2">Superiori</option>
+    </select>
+
+    <label>Anno:</label>
+    <select name="anno" id="anno"></select>
+
+    <label>Difficoltà:</label>
+    <input type="number" name="difficulty" min="1" max="10" value="3">
+
+    <label>LLM Provider:</label>
+    <select name="llmProvider">
+        <option value="groq">Groq</option>
+    </select>
+
+    <button type="submit">Invia</button>
+</form>
+
+{% if result %}
+    <h2>Risultato:</h2>
+    <textarea rows="20" cols="80">{{ result }}</textarea>
+{% endif %}
+
+<script src="{{ url_for('static', filename='js/form.js') }}"></script>
+</body>
+</html>
