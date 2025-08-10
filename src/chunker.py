@@ -9,12 +9,8 @@ SOURCE_INDEX_PATH = "../data/fonte_index.json"
 CLEANED_DIR       = Path("../data/cleaned")
 CHUNK_DIR         = Path("../data/chunks")
 
-CHUNK_SIZE_WORDS = 500   # ≈ 500 parole
-OVERLAP_WORDS    = 50    # sovrapposizione
-
-# -------------------------------------------------------------------- #
-# Helpers
-# -------------------------------------------------------------------- #
+CHUNK_SIZE_WORDS = 500
+OVERLAP_WORDS    = 50
 
 def load_source_index() -> List[Dict]:
     if Path(SOURCE_INDEX_PATH).exists():
@@ -28,11 +24,7 @@ def get_source_meta(source_id: str, index: List[Dict]) -> Dict:
             return entry
     raise KeyError(f"Metadata for source_id '{source_id}' not found")
 
-def split_text_into_chunks(
-    text: str,
-    size: int = CHUNK_SIZE_WORDS,
-    overlap: int = OVERLAP_WORDS
-) -> List[str]:
+def split_text_into_chunks(text: str, size: int = CHUNK_SIZE_WORDS, overlap: int = OVERLAP_WORDS) -> List[str]:
     words = re.split(r"\s+", text.strip())
     chunks = []
     start = 0
@@ -41,10 +33,6 @@ def split_text_into_chunks(
         chunks.append(" ".join(words[start:end]))
         start = end - overlap
     return chunks
-
-# -------------------------------------------------------------------- #
-# Main pipeline
-# -------------------------------------------------------------------- #
 
 def chunk_all_sources():
     index = load_source_index()
@@ -71,15 +59,14 @@ def chunk_all_sources():
                         "source_id": source_id,
                         "title": meta["titolo"],
                         "subject": meta["materia"],
-                        "level": meta["livello"],
+                        "classe": meta["classe"],
+                        "anno": meta["anno"],
                         "created_at": datetime.now().isoformat()
                     }
                 }
                 fp.write(json.dumps(record, ensure_ascii=False) + "\n")
 
         print(f"   ➜ {len(chunks)} chunks → {out_path}")
-
-# -------------------------------------------------------------------- #
 
 if __name__ == "__main__":
     chunk_all_sources()

@@ -7,7 +7,6 @@ from datetime import datetime
 
 SOURCE_INDEX_PATH = "data/fonte_index.json"
 
-# === STEP 1: Download HTML ===
 def get_clean_filename_from_url_path(path):
     return path.strip("/").replace("/", "_") or "index"
 
@@ -29,7 +28,6 @@ def download_html(url, output_dir="data/raw"):
     print(f"HTML saved to: {output_path}")
     return filename, output_path
 
-# === STEP 2: Manage source index ===
 def load_source_index():
     if os.path.exists(SOURCE_INDEX_PATH):
         with open(SOURCE_INDEX_PATH, "r", encoding="utf-8") as f:
@@ -44,15 +42,17 @@ def save_source_index(index):
 def register_source_metadata(filename, url):
     print("\nEnter source metadata:")
     title = input("Title: ").strip()
-    subject = input("Subject (e.g. storia, geografia): ").strip().lower()
-    level = input("Level (elementari / medie / superiori / uni): ").strip().lower()
+    subject = input("Subject (es: storia, geografia): ").strip().lower()
+    classe = input("Classe (es: prim, sec1, sec2): ").strip().lower()
+    anno = int(input("Anno (es: 1, 2, 3): ").strip())
 
     index = load_source_index()
     source = {
         "id": filename.replace(".html", ""),
         "titolo": title,
         "materia": subject,
-        "livello": level,
+        "classe": classe,
+        "anno": anno,
         "fonte": url,
         "formato": "html",
         "salvato_il": datetime.now().isoformat()
@@ -61,7 +61,6 @@ def register_source_metadata(filename, url):
     save_source_index(index)
     print("Source registered in fonte_index.json\n")
 
-# === STEP 3: Extract clean text ===
 def extract_text_from_html(html_path, output_path=None):
     with open(html_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f.read(), "html.parser")
@@ -86,7 +85,6 @@ def extract_text_from_html(html_path, output_path=None):
     print(f"Clean text saved to: {output_path}")
     return output_path
 
-# === Main pipeline ===
 if __name__ == "__main__":
     url = input("Enter the source URL: ").strip()
     
