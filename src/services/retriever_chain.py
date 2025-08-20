@@ -9,7 +9,7 @@ from langchain.schema import HumanMessage, SystemMessage
 # Evita warning dei tokenizers dopo fork
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-CHROMA_DIR = "../data/chroma_db"
+CHROMA_DIR = "/Users/adrianochiriaco/Documents/SAGECLEAN/sage-rag/data/chroma_db"
 COLLECTION_NAME = "educational_chunks"
 
 # Quanti chunk vuoi passare al modello (fissi)

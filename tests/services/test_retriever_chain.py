@@ -2,11 +2,12 @@
 import sys
 import types
 import pytest
+import numpy as np
 
 # ---------- PRE-IMPORT PATCH: stub dei moduli pesanti ----------
 # Dummy embedder con .encode() che ritorna qualcosa che ha .tolist()
 class _DummyEmbedder:
-    def __init__(self, model_name):
+    def __init__(self, model_name=None):
         self.model_name = model_name
         self.calls = []
 
@@ -22,7 +23,7 @@ class _DummyEmbedder:
 class _DummyCollection:
     def __init__(self):
         self.last_query = None
-        # valore di default, lo cambieremo nei test
+        # valore di default, sovrascritto nei test quando serve
         self.result = {"documents": [[]], "metadatas": [[]]}
 
     def query(self, **kwargs):
@@ -40,18 +41,20 @@ class _DummyClient:
 class _DummyChatGroq:
     def __init__(self, **kwargs):
         self.kwargs = kwargs
+
     def invoke(self, messages):
-        class _Resp: pass
+        class _Resp:
+            pass
         _Resp.content = '{"ok":true}'
         return _Resp
 
-# istanze condivise per ispezionare lo stato nel modulo importato
+# istanza condivisa per ispezionare/modificare lo stato nei test
 _dummy_collection = _DummyCollection()
 
 # costruiamo moduli fake e iniettiamoli in sys.modules
 _fake_sentencetrf = types.SimpleNamespace(SentenceTransformer=_DummyEmbedder)
-_fake_chromadb   = types.SimpleNamespace(PersistentClient=lambda path: _DummyClient(_dummy_collection))
-_fake_groq       = types.SimpleNamespace(ChatGroq=_DummyChatGroq)
+_fake_chromadb = types.SimpleNamespace(PersistentClient=lambda path=None, **kw: _DummyClient(_dummy_collection))
+_fake_groq = types.SimpleNamespace(ChatGroq=_DummyChatGroq)
 
 sys.modules.setdefault("sentence_transformers", _fake_sentencetrf)
 sys.modules.setdefault("chromadb", _fake_chromadb)
@@ -59,6 +62,16 @@ sys.modules.setdefault("langchain_groq", _fake_groq)
 
 # ---------- ora possiamo importare il modulo sotto test ----------
 from src.services import retriever_chain
+
+
+# ---------- fixture per isolare lo stato tra i test ----------
+@pytest.fixture(autouse=True)
+def _isolate_collection(monkeypatch):
+    """Assicura che ogni test parta con una collection dummy 'pulita'."""
+    monkeypatch.setattr(retriever_chain, "collection", _dummy_collection)
+    _dummy_collection.result = {"documents": [[]], "metadatas": [[]]}
+    _dummy_collection.last_query = None
+    yield
 
 
 # Utility LLM per i test di build_rag_chain
@@ -69,15 +82,14 @@ class DummyLLM:
 
     def invoke(self, messages):
         self.invoked_with = messages
-        class _Resp: pass
+        class _Resp:
+            pass
         _Resp.content = self._content
         return _Resp
 
 
-import numpy as np
-
 def test_query_chunks_filters_and_dedup(monkeypatch):
-    # Evita randomicità
+    # Evita randomicità nel sampling
     monkeypatch.setattr(retriever_chain.random, "shuffle", lambda seq: None)
 
     # Mock embedder → array con .tolist()
@@ -87,10 +99,10 @@ def test_query_chunks_filters_and_dedup(monkeypatch):
         type("E", (), {"encode": lambda self, x: np.array([0.1, 0.2, 0.3])})()
     )
 
-    # Patch _hash_doc per sicurezza (identifica univocamente per contenuto)
+    # Patch _hash_doc per dedup deterministico (in base al contenuto)
     monkeypatch.setattr(retriever_chain, "_hash_doc", lambda s: f"HASH::{s.strip()}")
 
-    # Prepara candidati con duplicati (stessa lunghezza docs/metas)
+    # Prepara candidati con duplicati (stesso length docs/metas)
     docs = ["A", "B", "A", "C", "C", "D"]
     metas = [
         {"subject": "mate", "classe": "3", "anno": 2025, "title": "tA"},
@@ -107,12 +119,13 @@ def test_query_chunks_filters_and_dedup(monkeypatch):
         def __init__(self, result):
             self.result = result
             self.last_query = None
+
         def query(self, **kwargs):
             self.last_query = kwargs
             return self.result
 
     dummy_collection = DummyCollection(fake_result)
-    # Patcha proprio l’oggetto collection dentro il modulo importato
+    # Patcha l’oggetto collection usato dal modulo sotto test
     monkeypatch.setattr(retriever_chain, "collection", dummy_collection)
 
     out_docs, out_metas = retriever_chain.query_chunks(
@@ -123,7 +136,7 @@ def test_query_chunks_filters_and_dedup(monkeypatch):
     assert out_docs == ["A", "B", "C", "D"]
     assert [m["title"] for m in out_metas] == ["tA", "tB", "tC", "tD"]
 
-    # Verifica filtri
+    # Verifica filtri passati alla query di Chroma
     where = dummy_collection.last_query.get("where")
     assert "$and" in where
     assert {"subject": "mate"} in where["$and"]
@@ -134,9 +147,13 @@ def test_query_chunks_filters_and_dedup(monkeypatch):
     assert dummy_collection.last_query["include"] == ["documents", "metadatas"]
 
 
+def test_query_chunks_no_results(monkeypatch):
+    # Garantiamo che query_chunks usi proprio la nostra dummy collection
+    monkeypatch.setattr(retriever_chain, "collection", _dummy_collection)
 
-def test_query_chunks_no_results():
+    # Nessun risultato dalla query
     _dummy_collection.result = {"documents": [[]], "metadatas": [[]]}
+
     out_docs, out_metas = retriever_chain.query_chunks("ciao", subject="storia")
     assert out_docs == []
     assert out_metas == []
@@ -154,6 +171,7 @@ def test_build_context_formatting():
 
 
 def test_build_rag_chain_no_docs(monkeypatch):
+    # Forza query_chunks a non restituire nulla
     monkeypatch.setattr(retriever_chain, "query_chunks", lambda *a, **kw: ([], []))
     dummy = DummyLLM('{"ignored":true}')
     chain = retriever_chain.build_rag_chain(dummy)
