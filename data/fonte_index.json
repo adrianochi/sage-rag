@@ -88,5 +88,3125 @@
     "fonte": "https://it.wikipedia.org/wiki/Assiria",
     "formato": "html",
     "salvato_il": "2025-06-29T17:51:29.684038"
+  },
+  {
+    "id": "Tempo",
+    "titolo": "Concetto di tempo (giorno, notte, stagioni)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Tempo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:40.634929"
+  },
+  {
+    "id": "Linea_del_tempo",
+    "titolo": "Linea del tempo personale",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Linea_del_tempo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:40.781984"
+  },
+  {
+    "id": "Albero_genealogico",
+    "titolo": "Albero genealogico familiare",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Albero_genealogico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:40.794907"
+  },
+  {
+    "id": "Mestiere",
+    "titolo": "Mestieri dei genitori e nonni",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Mestiere",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:40.811700"
+  },
+  {
+    "id": "Fonte_storica",
+    "titolo": "Fonti della memoria personale",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Fonte_storica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:40.853004"
+  },
+  {
+    "id": "Famiglia",
+    "titolo": "Storia della famiglia",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Famiglia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:41.403469"
+  },
+  {
+    "id": "Tradizioni_popolari",
+    "titolo": "Comunità locale e tradizioni",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Tradizioni_popolari",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:41.477330"
+  },
+  {
+    "id": "Tradizione_orale",
+    "titolo": "Testimonianze orali",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Tradizione_orale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:41.535534"
+  },
+  {
+    "id": "Cultura_materiale",
+    "titolo": "Oggetti quotidiani come fonte storica",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Cultura_materiale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:41.563551"
+  },
+  {
+    "id": "Paleolitico",
+    "titolo": "Paleolitico",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Paleolitico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.005369"
+  },
+  {
+    "id": "Neolitico",
+    "titolo": "Neolitico",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Neolitico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.038746"
+  },
+  {
+    "id": "Et%C3%A0_dei_metalli",
+    "titolo": "Età dei metalli",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Et%C3%A0_dei_metalli",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.094408"
+  },
+  {
+    "id": "Homo_habilis",
+    "titolo": "Homo habilis",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Homo_habilis",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.122186"
+  },
+  {
+    "id": "Homo_erectus",
+    "titolo": "Homo erectus",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Homo_erectus",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.150093"
+  },
+  {
+    "id": "Homo_sapiens",
+    "titolo": "Homo sapiens",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Homo_sapiens",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.176450"
+  },
+  {
+    "id": "Fuoco",
+    "titolo": "Fuoco (invenzione/uso)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Fuoco",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.259522"
+  },
+  {
+    "id": "Ruota",
+    "titolo": "Ruota (invenzione)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Ruota",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.311747"
+  },
+  {
+    "id": "Aratro",
+    "titolo": "Aratro",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Aratro",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.342681"
+  },
+  {
+    "id": "Ceramica",
+    "titolo": "Ceramica",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Ceramica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.383004"
+  },
+  {
+    "id": "Grotte_di_Lascaux",
+    "titolo": "Pitture rupestri di Lascaux",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Grotte_di_Lascaux",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.428107"
+  },
+  {
+    "id": "Grotte_di_Altamira",
+    "titolo": "Pitture rupestri di Altamira",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Grotte_di_Altamira",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.455186"
+  },
+  {
+    "id": "Sumeri",
+    "titolo": "Sumeri",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Sumeri",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.515649"
+  },
+  {
+    "id": "Babilonia",
+    "titolo": "Babilonia",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Babilonia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.583933"
+  },
+  {
+    "id": "Assiri",
+    "titolo": "Assiri",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Assiri",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.610822"
+  },
+  {
+    "id": "Civilt%C3%A0_della_valle_dell%27Indo",
+    "titolo": "Civiltà della valle dell'Indo",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Civilt%C3%A0_della_valle_dell%27Indo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.777120"
+  },
+  {
+    "id": "Dinastia_Shang",
+    "titolo": "Cina antica (dinastia Shang)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Dinastia_Shang",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.816469"
+  },
+  {
+    "id": "Civilt%C3%A0_minoica",
+    "titolo": "Civiltà minoica",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Civilt%C3%A0_minoica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.864589"
+  },
+  {
+    "id": "Civilt%C3%A0_micenea",
+    "titolo": "Civiltà micenea",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Civilt%C3%A0_micenea",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:42.965478"
+  },
+  {
+    "id": "Atene",
+    "titolo": "Atene (polis)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Atene",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:43.065488"
+  },
+  {
+    "id": "Sparta",
+    "titolo": "Sparta (polis)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Sparta",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:43.175335"
+  },
+  {
+    "id": "Giochi_olimpici_antichi",
+    "titolo": "Giochi olimpici antichi",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Giochi_olimpici_antichi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:43.225596"
+  },
+  {
+    "id": "Mitologia_greca",
+    "titolo": "Mitologia greca",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Mitologia_greca",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:43.256423"
+  },
+  {
+    "id": "Alessandro_Magno",
+    "titolo": "Alessandro Magno",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Alessandro_Magno",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:43.386223"
+  },
+  {
+    "id": "Romolo_e_Remo",
+    "titolo": "Romolo e Remo",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Romolo_e_Remo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:43.594049"
+  },
+  {
+    "id": "Repubblica_romana",
+    "titolo": "Repubblica romana",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Repubblica_romana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:44.138383"
+  },
+  {
+    "id": "Impero_romano",
+    "titolo": "Impero romano",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Impero_romano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:44.317454"
+  },
+  {
+    "id": "Giulio_Cesare",
+    "titolo": "Giulio Cesare",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Giulio_Cesare",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:44.425441"
+  },
+  {
+    "id": "Augusto",
+    "titolo": "Augusto",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Augusto",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:44.628481"
+  },
+  {
+    "id": "Terme_romane",
+    "titolo": "Terme romane",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Terme_romane",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:44.858065"
+  },
+  {
+    "id": "Legione_romana",
+    "titolo": "Legione romana",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Legione_romana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:45.003927"
+  },
+  {
+    "id": "Anfiteatro",
+    "titolo": "Anfiteatro romano",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Anfiteatro",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:45.219258"
+  },
+  {
+    "id": "Religione_romana",
+    "titolo": "Religione romana",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Religione_romana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:45.252116"
+  },
+  {
+    "id": "Caduta_dell%27Impero_romano_d%27Occidente",
+    "titolo": "Caduta dell'Impero romano d'Occidente (476)",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Caduta_dell%27Impero_romano_d%27Occidente",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:45.317055"
+  },
+  {
+    "id": "Mercante",
+    "titolo": "Mercanti medievali",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Mercante",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.022101"
+  },
+  {
+    "id": "Citt%C3%A0_medievale",
+    "titolo": "Città medievale",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Citt%C3%A0_medievale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.064562"
+  },
+  {
+    "id": "Monastero",
+    "titolo": "Monastero e vita monastica",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Monastero",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.129311"
+  },
+  {
+    "id": "Carlo_Magno",
+    "titolo": "Carlo Magno",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Carlo_Magno",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.163885"
+  },
+  {
+    "id": "Sacro_Romano_Impero",
+    "titolo": "Sacro Romano Impero",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Sacro_Romano_Impero",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.351895"
+  },
+  {
+    "id": "Mulino_ad_acqua",
+    "titolo": "Mulino ad acqua",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Mulino_ad_acqua",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.603794"
+  },
+  {
+    "id": "Stampa_a_caratteri_mobili",
+    "titolo": "Stampa a caratteri mobili",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Stampa_a_caratteri_mobili",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.637813"
+  },
+  {
+    "id": "Cristoforo_Colombo",
+    "titolo": "Cristoforo Colombo",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.799780"
+  },
+  {
+    "id": "Vasco_da_Gama",
+    "titolo": "Vasco da Gama",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Vasco_da_Gama",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.923090"
+  },
+  {
+    "id": "Ferdinando_Magellano",
+    "titolo": "Ferdinando Magellano",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Ferdinando_Magellano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:46.980107"
+  },
+  {
+    "id": "Leonardo_da_Vinci",
+    "titolo": "Leonardo da Vinci",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:47.135471"
+  },
+  {
+    "id": "Michelangelo_Buonarroti",
+    "titolo": "Michelangelo Buonarroti",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Michelangelo_Buonarroti",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:47.325648"
+  },
+  {
+    "id": "Galileo_Galilei",
+    "titolo": "Galileo Galilei",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Galileo_Galilei",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:47.475369"
+  },
+  {
+    "id": "Giuseppe_Garibaldi",
+    "titolo": "Giuseppe Garibaldi",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Giuseppe_Garibaldi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:48.147784"
+  },
+  {
+    "id": "Camillo_Benso%2C_conte_di_Cavour",
+    "titolo": "Camillo Benso, conte di Cavour",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Camillo_Benso%2C_conte_di_Cavour",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:48.371142"
+  },
+  {
+    "id": "Vittorio_Emanuele_II",
+    "titolo": "Vittorio Emanuele II",
+    "materia": "storia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Vittorio_Emanuele_II",
+    "formato": "html",
+    "salvato_il": "2025-08-18T15:59:48.472323"
+  },
+  {
+    "id": "Alfabeto_italiano",
+    "titolo": "Alfabeto",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Alfabeto_italiano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:16.424561"
+  },
+  {
+    "id": "Vocale",
+    "titolo": "Vocali e consonanti",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Vocale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:16.566341"
+  },
+  {
+    "id": "Sillaba",
+    "titolo": "Sillabe",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Sillaba",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:16.730794"
+  },
+  {
+    "id": "Parola",
+    "titolo": "Formazione di parole semplici",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Parola",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:16.863480"
+  },
+  {
+    "id": "Scrittura",
+    "titolo": "Scrittura di frasi semplici",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Scrittura",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:17.138010"
+  },
+  {
+    "id": "Lettura",
+    "titolo": "Lettura scorrevole",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Lettura",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:17.308320"
+  },
+  {
+    "id": "Ortografia",
+    "titolo": "Uso delle principali regole ortografiche",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Ortografia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:17.998125"
+  },
+  {
+    "id": "Numero_grammaticale",
+    "titolo": "Singolare e plurale",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Numero_grammaticale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:19.007199"
+  },
+  {
+    "id": "Genere_grammaticale",
+    "titolo": "Genere maschile e femminile",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Genere_grammaticale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:20.032595"
+  },
+  {
+    "id": "Aggettivo_qualificativo",
+    "titolo": "Aggettivi qualificativi",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Aggettivo_qualificativo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:20.850669"
+  },
+  {
+    "id": "Analisi_grammaticale",
+    "titolo": "Analisi grammaticale (nome, articolo, aggettivo, verbo)",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Analisi_grammaticale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:21.401207"
+  },
+  {
+    "id": "Pronome_personale",
+    "titolo": "Pronomi personali",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Pronome_personale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:22.208594"
+  },
+  {
+    "id": "Avverbio",
+    "titolo": "Avverbi",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Avverbio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:22.355182"
+  },
+  {
+    "id": "Preposizione",
+    "titolo": "Preposizioni semplici",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Preposizione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:22.598485"
+  },
+  {
+    "id": "Punteggiatura",
+    "titolo": "Uso delle maiuscole e segni di interpunzione",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Punteggiatura",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:22.644425"
+  },
+  {
+    "id": "Scrittura_creativa",
+    "titolo": "Produzione di testi brevi (racconto personale)",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Scrittura_creativa",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:24.217421"
+  },
+  {
+    "id": "Dizionario",
+    "titolo": "Uso del dizionario",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Dizionario",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:25.036035"
+  },
+  {
+    "id": "Pronome",
+    "titolo": "Pronomi possessivi e dimostrativi",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Pronome",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:25.757064"
+  },
+  {
+    "id": "Tempi_verbali",
+    "titolo": "Uso corretto dei tempi verbali (imperfetto, trapassato prossimo)",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Tempi_verbali",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:25.800361"
+  },
+  {
+    "id": "Testo_descrittivo",
+    "titolo": "Testo descrittivo",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Testo_descrittivo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:25.899526"
+  },
+  {
+    "id": "Coniugazione_%28linguistica%29",
+    "titolo": "Coniugazioni verbali complete",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Coniugazione_%28linguistica%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:27.685587"
+  },
+  {
+    "id": "Congiuntivo",
+    "titolo": "Uso del congiuntivo (introduzione)",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Congiuntivo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:27.812999"
+  },
+  {
+    "id": "Poesia",
+    "titolo": "Testo poetico",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Poesia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:27.895096"
+  },
+  {
+    "id": "Testo_espositivo",
+    "titolo": "Testo espositivo",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Testo_espositivo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:27.928059"
+  },
+  {
+    "id": "Riassunto",
+    "titolo": "Comprensione e riassunto di un testo",
+    "materia": "italiano",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Riassunto",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:28.600170"
+  },
+  {
+    "id": "Zero",
+    "titolo": "Concetto di zero",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Zero",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:52.794634"
+  },
+  {
+    "id": "Disuguaglianza_%28matematica%29",
+    "titolo": "Maggiore, minore, uguale",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Disuguaglianza_%28matematica%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:53.879890"
+  },
+  {
+    "id": "Quadrato_%28geometria%29",
+    "titolo": "Figure piane: quadrato",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Quadrato_%28geometria%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:55.113127"
+  },
+  {
+    "id": "Rettangolo",
+    "titolo": "Figure piane: rettangolo",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Rettangolo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:55.284662"
+  },
+  {
+    "id": "Triangolo",
+    "titolo": "Figure piane: triangolo",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Triangolo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:55.675505"
+  },
+  {
+    "id": "Calendario",
+    "titolo": "Tempo: giorni e mesi",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Calendario",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:56.210522"
+  },
+  {
+    "id": "Addizione",
+    "titolo": "Addizione con riporto",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Addizione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:57.149746"
+  },
+  {
+    "id": "Sottrazione",
+    "titolo": "Sottrazione con prestito",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Sottrazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:57.222133"
+  },
+  {
+    "id": "Moltiplicazione",
+    "titolo": "Moltiplicazione (introduzione)",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Moltiplicazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:57.503902"
+  },
+  {
+    "id": "Divisione",
+    "titolo": "Divisione (introduzione)",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Divisione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:57.738991"
+  },
+  {
+    "id": "Tavola_pitagorica",
+    "titolo": "Tabelline 1-10",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Tavola_pitagorica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:57.872667"
+  },
+  {
+    "id": "Perimetro",
+    "titolo": "Perimetro di figure semplici",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Perimetro",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:58.877720"
+  },
+  {
+    "id": "Aritmetica",
+    "titolo": "Operazioni a più cifre",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Aritmetica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:59.310995"
+  },
+  {
+    "id": "Divisione_euclidea",
+    "titolo": "Divisione con resto",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Divisione_euclidea",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:03:59.971034"
+  },
+  {
+    "id": "Unit%C3%A0_di_misura",
+    "titolo": "Unità di misura (lunghezza, massa, capacità)",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Unit%C3%A0_di_misura",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:00.844765"
+  },
+  {
+    "id": "Area",
+    "titolo": "Area delle figure semplici",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Area",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:01.003605"
+  },
+  {
+    "id": "Angolo",
+    "titolo": "Angoli (introduzione)",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Angolo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:01.914155"
+  },
+  {
+    "id": "Sistema_numerico_decimale",
+    "titolo": "Numeri fino a 10.000",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_numerico_decimale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:02.033357"
+  },
+  {
+    "id": "Numero_primo",
+    "titolo": "Numeri primi",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Numero_primo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:04.657291"
+  },
+  {
+    "id": "Massimo_comune_divisore",
+    "titolo": "Massimo comune divisore (MCD)",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Massimo_comune_divisore",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:05.150107"
+  },
+  {
+    "id": "Minimo_comune_multiplo",
+    "titolo": "Minimo comune multiplo (mcm)",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Minimo_comune_multiplo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:05.433299"
+  },
+  {
+    "id": "Circonferenza",
+    "titolo": "Circonferenza e cerchio",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Circonferenza",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:05.639817"
+  },
+  {
+    "id": "Simmetria",
+    "titolo": "Simmetria",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Simmetria",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:05.896690"
+  },
+  {
+    "id": "Numeri_naturali",
+    "titolo": "Numeri naturali grandi",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Numeri_naturali",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:06.926816"
+  },
+  {
+    "id": "Potenza_%28matematica%29",
+    "titolo": "Potenze",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Potenza_%28matematica%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:07.511901"
+  },
+  {
+    "id": "Volume",
+    "titolo": "Volume dei solidi",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Volume",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:10.310640"
+  },
+  {
+    "id": "Piano_cartesiano",
+    "titolo": "Coordinate nel piano",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Piano_cartesiano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:10.369957"
+  },
+  {
+    "id": "Media_aritmetica",
+    "titolo": "Media aritmetica",
+    "materia": "matematica",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Media_aritmetica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:04:10.653562"
+  },
+  {
+    "id": "Spazio",
+    "titolo": "Spazio vicino e lontano",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Spazio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:34.668403"
+  },
+  {
+    "id": "Pianta_%28architettura%29",
+    "titolo": "Piantina dell’aula",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Pianta_%28architettura%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:35.926209"
+  },
+  {
+    "id": "Punto_di_riferimento",
+    "titolo": "Punti di riferimento",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Punto_di_riferimento",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:36.347329"
+  },
+  {
+    "id": "Mappa",
+    "titolo": "Mappe semplici",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Mappa",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:36.797630"
+  },
+  {
+    "id": "Paesaggio",
+    "titolo": "Paesaggio naturale e antropico",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Paesaggio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:36.930412"
+  },
+  {
+    "id": "Punti_cardinali",
+    "titolo": "Punti cardinali",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Punti_cardinali",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:37.329773"
+  },
+  {
+    "id": "Geografia_dell%27Italia",
+    "titolo": "Italia: regioni fisiche principali",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Geografia_dell%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:37.467141"
+  },
+  {
+    "id": "Fiumi_d%27Italia",
+    "titolo": "Fiumi italiani",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Fiumi_d%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:37.644103"
+  },
+  {
+    "id": "Laghi_d%27Italia",
+    "titolo": "Laghi italiani",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Laghi_d%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:37.821819"
+  },
+  {
+    "id": "Alpi",
+    "titolo": "Montagne italiane",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Alpi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:37.983082"
+  },
+  {
+    "id": "Collina",
+    "titolo": "Colline italiane",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Collina",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:38.625971"
+  },
+  {
+    "id": "Pianura_Padana",
+    "titolo": "Pianure italiane",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Pianura_Padana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:38.786943"
+  },
+  {
+    "id": "Carta_geografica",
+    "titolo": "Carte geografiche (fisiche e politiche)",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Carta_geografica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:39.430809"
+  },
+  {
+    "id": "Regioni_d%27Italia",
+    "titolo": "Italia: regioni amministrative",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Regioni_d%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:39.561539"
+  },
+  {
+    "id": "Province_d%27Italia",
+    "titolo": "Province italiane",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Province_d%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:39.767397"
+  },
+  {
+    "id": "Comuni_d%27Italia",
+    "titolo": "Comuni italiani",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Comuni_d%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:39.954459"
+  },
+  {
+    "id": "Geografia_dell%27Europa",
+    "titolo": "Paesaggi europei",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Geografia_dell%27Europa",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:41.309028"
+  },
+  {
+    "id": "Oceano",
+    "titolo": "Oceani",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Oceano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:41.644158"
+  },
+  {
+    "id": "Antartide",
+    "titolo": "Antartide",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Antartide",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:42.642653"
+  },
+  {
+    "id": "Carta_tematica",
+    "titolo": "Carte tematiche (fisiche, politiche, economiche)",
+    "materia": "geografia",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Carta_tematica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:09:43.679600"
+  },
+  {
+    "id": "Cinque_sensi",
+    "titolo": "I cinque sensi",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Cinque_sensi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:51.936294"
+  },
+  {
+    "id": "Corpo_umano",
+    "titolo": "Il corpo umano (parti principali)",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Corpo_umano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:52.331938"
+  },
+  {
+    "id": "Animale_domestico",
+    "titolo": "Gli animali domestici",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Animale_domestico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:53.216994"
+  },
+  {
+    "id": "Pianta",
+    "titolo": "Le piante comuni",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Pianta",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:53.938138"
+  },
+  {
+    "id": "Stagione",
+    "titolo": "Le stagioni",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Stagione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:54.064289"
+  },
+  {
+    "id": "Alimentazione",
+    "titolo": "Alimentazione e cibi",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Alimentazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:54.201807"
+  },
+  {
+    "id": "Ciclo_dell%27acqua",
+    "titolo": "Ciclo dell’acqua",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Ciclo_dell%27acqua",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:54.334274"
+  },
+  {
+    "id": "Acqua",
+    "titolo": "L’acqua come risorsa",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Acqua",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:54.488510"
+  },
+  {
+    "id": "Scheletro_umano",
+    "titolo": "Il sistema scheletrico",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Scheletro_umano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:56.356953"
+  },
+  {
+    "id": "Muscolo",
+    "titolo": "Il sistema muscolare",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Muscolo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:56.642501"
+  },
+  {
+    "id": "Fotosintesi_clorofilliana",
+    "titolo": "Piante: fotosintesi clorofilliana",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Fotosintesi_clorofilliana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:57.411720"
+  },
+  {
+    "id": "Stati_della_materia",
+    "titolo": "Stati della materia",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Stati_della_materia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:58.449228"
+  },
+  {
+    "id": "Forza_%28fisica%29",
+    "titolo": "Forze e movimento",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Forza_%28fisica%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:58.988544"
+  },
+  {
+    "id": "Terra",
+    "titolo": "Terra e Sole",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Terra",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:59.161017"
+  },
+  {
+    "id": "Luna",
+    "titolo": "Luna e fasi lunari",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Luna",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:10:59.410052"
+  },
+  {
+    "id": "DNA",
+    "titolo": "DNA (introduzione)",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/DNA",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:11:00.092928"
+  },
+  {
+    "id": "Energia_rinnovabile",
+    "titolo": "Energia rinnovabile",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Energia_rinnovabile",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:11:01.660550"
+  },
+  {
+    "id": "Cambiamento_climatico",
+    "titolo": "Clima e cambiamenti climatici",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Cambiamento_climatico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:11:01.892259"
+  },
+  {
+    "id": "Vulcano",
+    "titolo": "Vulcani",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Vulcano",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:11:02.067493"
+  },
+  {
+    "id": "Terremoto",
+    "titolo": "Terremoti",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Terremoto",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:11:02.232628"
+  },
+  {
+    "id": "Galassia",
+    "titolo": "Stelle e galassie",
+    "materia": "scienze",
+    "classe": "prim",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Galassia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:11:02.554837"
+  },
+  {
+    "id": "Preistoria",
+    "titolo": "Preistoria",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Preistoria",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:02.759311"
+  },
+  {
+    "id": "Mesopotamia",
+    "titolo": "Antica Mesopotamia",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Mesopotamia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:02.815401"
+  },
+  {
+    "id": "Antico_Egitto",
+    "titolo": "Antico Egitto",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Antico_Egitto",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:02.849763"
+  },
+  {
+    "id": "Antica_Grecia",
+    "titolo": "Civiltà greca",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Antica_Grecia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:02.973492"
+  },
+  {
+    "id": "Antica_Roma",
+    "titolo": "Civiltà romana",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Antica_Roma",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:03.206369"
+  },
+  {
+    "id": "Medioevo",
+    "titolo": "Medioevo",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Medioevo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:03.710886"
+  },
+  {
+    "id": "Feudalesimo",
+    "titolo": "Feudalesimo",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Feudalesimo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:03.843835"
+  },
+  {
+    "id": "Impero_bizantino",
+    "titolo": "Impero bizantino",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Impero_bizantino",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:04.070071"
+  },
+  {
+    "id": "Califfato",
+    "titolo": "Islam e califfati",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Califfato",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:04.426527"
+  },
+  {
+    "id": "Crociate",
+    "titolo": "Crociate",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Crociate",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:04.497266"
+  },
+  {
+    "id": "Comuni_medievali",
+    "titolo": "Comuni e signorie",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Comuni_medievali",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:05.217374"
+  },
+  {
+    "id": "Luigi_XIV_di_Francia",
+    "titolo": "Assolutismo e Luigi XIV",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Luigi_XIV_di_Francia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:05.930839"
+  },
+  {
+    "id": "Illuminismo",
+    "titolo": "Illuminismo",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Illuminismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:06.162127"
+  },
+  {
+    "id": "Rivoluzione_industriale",
+    "titolo": "Rivoluzione industriale",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Rivoluzione_industriale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:06.379292"
+  },
+  {
+    "id": "Costituzione_della_Repubblica_Italiana",
+    "titolo": "Costituzione italiana",
+    "materia": "storia",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Costituzione_della_Repubblica_Italiana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:14:07.382945"
+  },
+  {
+    "id": "Numeri_interi",
+    "titolo": "Numeri interi",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Numeri_interi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:31.952966"
+  },
+  {
+    "id": "Frazione",
+    "titolo": "Frazioni",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Frazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.038495"
+  },
+  {
+    "id": "Numero_decimale",
+    "titolo": "Numeri decimali",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Numero_decimale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.052271"
+  },
+  {
+    "id": "Proporzione",
+    "titolo": "Proporzioni",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Proporzione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.062164"
+  },
+  {
+    "id": "Percentuale",
+    "titolo": "Percentuali",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Percentuale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.075362"
+  },
+  {
+    "id": "Poligono",
+    "titolo": "Geometria piana: triangoli e quadrilateri",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Poligono",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.099242"
+  },
+  {
+    "id": "Cerchio",
+    "titolo": "Circonferenza e cerchio",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Cerchio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.136553"
+  },
+  {
+    "id": "Numero_razionale",
+    "titolo": "Numeri razionali e irrazionali",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Numero_razionale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.697614"
+  },
+  {
+    "id": "Radice_quadrata",
+    "titolo": "Potenza e radice quadrata",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Radice_quadrata",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:32.790354"
+  },
+  {
+    "id": "Equazione_di_primo_grado",
+    "titolo": "Equazioni di primo grado",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Equazione_di_primo_grado",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:33.431104"
+  },
+  {
+    "id": "Teorema_di_Pitagora",
+    "titolo": "Pitagora e teorema di Pitagora",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Teorema_di_Pitagora",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:33.587608"
+  },
+  {
+    "id": "Solido_geometrico",
+    "titolo": "Geometria solida: prismi e piramidi",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Solido_geometrico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:33.685863"
+  },
+  {
+    "id": "Sfera",
+    "titolo": "Cilindro, cono e sfera",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Sfera",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:33.812921"
+  },
+  {
+    "id": "Equazione_di_secondo_grado",
+    "titolo": "Equazioni di secondo grado",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Equazione_di_secondo_grado",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:34.580287"
+  },
+  {
+    "id": "Funzione_matematica",
+    "titolo": "Funzioni e grafici",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Funzione_matematica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:35.346707"
+  },
+  {
+    "id": "Similitudine_%28geometria%29",
+    "titolo": "Similitudini e proporzionalità",
+    "materia": "matematica",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Similitudine_%28geometria%29",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:35.563358"
+  },
+  {
+    "id": "Continente",
+    "titolo": "Continenti e oceani",
+    "materia": "geografia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Continente",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:35.847260"
+  },
+  {
+    "id": "Geografia_d%27Italia",
+    "titolo": "Italia fisica: rilievi e fiumi",
+    "materia": "geografia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Geografia_d%27Italia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:36.329695"
+  },
+  {
+    "id": "Clima",
+    "titolo": "Climi del mondo",
+    "materia": "geografia",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Clima",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:36.417522"
+  },
+  {
+    "id": "Unione_europea",
+    "titolo": "Paesi e capitali europee",
+    "materia": "geografia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Unione_europea",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:36.874453"
+  },
+  {
+    "id": "Demografia",
+    "titolo": "Popolazione e distribuzione",
+    "materia": "geografia",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Demografia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:37.194687"
+  },
+  {
+    "id": "Metodo_scientifico",
+    "titolo": "Metodo scientifico",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Metodo_scientifico",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:37.861035"
+  },
+  {
+    "id": "Apparato_respiratorio",
+    "titolo": "Corpo umano: apparato respiratorio",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Apparato_respiratorio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.013029"
+  },
+  {
+    "id": "Apparato_circolatorio",
+    "titolo": "Corpo umano: apparato circolatorio",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Apparato_circolatorio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.077106"
+  },
+  {
+    "id": "Apparato_riproduttore",
+    "titolo": "Riproduzione e sessualità",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Apparato_riproduttore",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.205239"
+  },
+  {
+    "id": "Ecosistema",
+    "titolo": "Ecosistemi",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Ecosistema",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.249089"
+  },
+  {
+    "id": "Catena_alimentare",
+    "titolo": "Catene alimentari",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Catena_alimentare",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.274480"
+  },
+  {
+    "id": "Stato_della_materia",
+    "titolo": "Stati della materia",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Stato_della_materia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.411709"
+  },
+  {
+    "id": "Tavola_periodica_degli_elementi",
+    "titolo": "Tavola periodica",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Tavola_periodica_degli_elementi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:38.746264"
+  },
+  {
+    "id": "Elettromagnetismo",
+    "titolo": "Elettricità e magnetismo",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Elettromagnetismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:39.833328"
+  },
+  {
+    "id": "Sistema_solare",
+    "titolo": "Sistema solare e universo",
+    "materia": "scienze",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_solare",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:39.918629"
+  },
+  {
+    "id": "Grammatica_italiana",
+    "titolo": "Analisi grammaticale: parti del discorso",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Grammatica_italiana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.148478"
+  },
+  {
+    "id": "Analisi_logica",
+    "titolo": "Analisi logica: soggetto e predicato",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Analisi_logica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.226827"
+  },
+  {
+    "id": "Fiaba",
+    "titolo": "Fiaba e favola",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Fiaba",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.351378"
+  },
+  {
+    "id": "Analisi_del_periodo",
+    "titolo": "Analisi del periodo",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Analisi_del_periodo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.399555"
+  },
+  {
+    "id": "Verbo",
+    "titolo": "Verbi e tempi verbali",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Verbo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.417221"
+  },
+  {
+    "id": "Testo_narrativo",
+    "titolo": "Testo descrittivo e narrativo",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Testo_narrativo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.450920"
+  },
+  {
+    "id": "Testo_argomentativo",
+    "titolo": "Testo argomentativo",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Testo_argomentativo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:40.482454"
+  },
+  {
+    "id": "I_Promessi_Sposi",
+    "titolo": "Promessi sposi di Alessandro Manzoni",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/I_Promessi_Sposi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:41.256271"
+  },
+  {
+    "id": "Francesco_Petrarca",
+    "titolo": "Petrarca e il Canzoniere",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Francesco_Petrarca",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:41.793863"
+  },
+  {
+    "id": "Decameron",
+    "titolo": "Boccaccio e il Decameron",
+    "materia": "italiano",
+    "classe": "sec1",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Decameron",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:16:42.111882"
+  },
+  {
+    "id": "Figure_retoriche",
+    "titolo": "Figure retoriche",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Figure_retoriche",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:43.324533"
+  },
+  {
+    "id": "Dante_Alighieri",
+    "titolo": "Dante Alighieri",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:43.964326"
+  },
+  {
+    "id": "Divina_Commedia",
+    "titolo": "Divina Commedia",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Divina_Commedia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:44.148238"
+  },
+  {
+    "id": "Petrarca",
+    "titolo": "Petrarca",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Petrarca",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:44.406368"
+  },
+  {
+    "id": "Boccaccio",
+    "titolo": "Boccaccio",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Boccaccio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:44.817435"
+  },
+  {
+    "id": "Ludovico_Ariosto",
+    "titolo": "Ludovico Ariosto",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Ludovico_Ariosto",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:46.949676"
+  },
+  {
+    "id": "Torquato_Tasso",
+    "titolo": "Torquato Tasso",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Torquato_Tasso",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:47.266528"
+  },
+  {
+    "id": "Romanticismo",
+    "titolo": "Romanticismo",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Romanticismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:48.852716"
+  },
+  {
+    "id": "Verismo",
+    "titolo": "Verismo",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Verismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:49.048174"
+  },
+  {
+    "id": "Leopardi",
+    "titolo": "Leopardi",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Leopardi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:49.344499"
+  },
+  {
+    "id": "Carducci",
+    "titolo": "Carducci",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Carducci",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:50.281894"
+  },
+  {
+    "id": "Decadentismo",
+    "titolo": "Decadentismo",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Decadentismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:50.529636"
+  },
+  {
+    "id": "Ungaretti",
+    "titolo": "Ungaretti",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Ungaretti",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:51.255435"
+  },
+  {
+    "id": "Montale",
+    "titolo": "Montale",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Montale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:51.582442"
+  },
+  {
+    "id": "Quasimodo",
+    "titolo": "Quasimodo",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Quasimodo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:52.074438"
+  },
+  {
+    "id": "Ermetismo",
+    "titolo": "Ermetismo",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Ermetismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:52.903732"
+  },
+  {
+    "id": "Neorealismo",
+    "titolo": "Neorealismo",
+    "materia": "italiano",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Neorealismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:53.000692"
+  },
+  {
+    "id": "Civilt%C3%A0_greca",
+    "titolo": "Civiltà greca",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Civilt%C3%A0_greca",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:53.567928"
+  },
+  {
+    "id": "Civilt%C3%A0_romana",
+    "titolo": "Civiltà romana",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Civilt%C3%A0_romana",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:53.757160"
+  },
+  {
+    "id": "Alto_Medioevo",
+    "titolo": "Alto Medioevo",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Alto_Medioevo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.056611"
+  },
+  {
+    "id": "Basso_Medioevo",
+    "titolo": "Basso Medioevo",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Basso_Medioevo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.348954"
+  },
+  {
+    "id": "Comune_medievale",
+    "titolo": "Comune medievale",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Comune_medievale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.599174"
+  },
+  {
+    "id": "Umanesimo",
+    "titolo": "Umanesimo",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Umanesimo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.643138"
+  },
+  {
+    "id": "Rinascimento",
+    "titolo": "Rinascimento",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Rinascimento",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.768798"
+  },
+  {
+    "id": "Scoperte_geografiche",
+    "titolo": "Scoperte geografiche",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Scoperte_geografiche",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.829008"
+  },
+  {
+    "id": "Riforma_protestante",
+    "titolo": "Riforma protestante",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Riforma_protestante",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:54.931377"
+  },
+  {
+    "id": "Controriforma",
+    "titolo": "Controriforma",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Controriforma",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:55.084860"
+  },
+  {
+    "id": "Rivoluzione_francese",
+    "titolo": "Rivoluzione francese",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Rivoluzione_francese",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:55.178515"
+  },
+  {
+    "id": "Napoleone",
+    "titolo": "Napoleone",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Napoleone",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:55.577775"
+  },
+  {
+    "id": "Restaurazione",
+    "titolo": "Restaurazione",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Restaurazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:55.899349"
+  },
+  {
+    "id": "Risorgimento",
+    "titolo": "Risorgimento",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Risorgimento",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:55.959658"
+  },
+  {
+    "id": "Prima_guerra_mondiale",
+    "titolo": "Prima guerra mondiale",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Prima_guerra_mondiale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:56.540842"
+  },
+  {
+    "id": "Fascismo",
+    "titolo": "Fascismo",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Fascismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:57.197980"
+  },
+  {
+    "id": "Nazismo",
+    "titolo": "Nazismo",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Nazismo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:57.474618"
+  },
+  {
+    "id": "Seconda_guerra_mondiale",
+    "titolo": "Seconda guerra mondiale",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Seconda_guerra_mondiale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:57.572220"
+  },
+  {
+    "id": "Guerra_fredda",
+    "titolo": "Guerra fredda",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Guerra_fredda",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:57.916824"
+  },
+  {
+    "id": "ONU",
+    "titolo": "ONU",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/ONU",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:58.362833"
+  },
+  {
+    "id": "Unione_Europea",
+    "titolo": "Unione Europea",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Unione_Europea",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:58.546314"
+  },
+  {
+    "id": "Storia_contemporanea",
+    "titolo": "Storia contemporanea",
+    "materia": "storia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Storia_contemporanea",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:59.073264"
+  },
+  {
+    "id": "Algebra",
+    "titolo": "Algebra",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Algebra",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:59.296138"
+  },
+  {
+    "id": "Geometria_euclidea",
+    "titolo": "Geometria euclidea",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Geometria_euclidea",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:59.907779"
+  },
+  {
+    "id": "Statistica_descrittiva",
+    "titolo": "Statistica descrittiva",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Statistica_descrittiva",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:19:59.962322"
+  },
+  {
+    "id": "Funzioni_elementari",
+    "titolo": "Funzioni elementari",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Funzioni_elementari",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:00.381212"
+  },
+  {
+    "id": "Equazioni_di_secondo_grado",
+    "titolo": "Equazioni di secondo grado",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Equazioni_di_secondo_grado",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:00.966500"
+  },
+  {
+    "id": "Disequazioni",
+    "titolo": "Disequazioni",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Disequazioni",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:01.877806"
+  },
+  {
+    "id": "Geometria_analitica",
+    "titolo": "Geometria analitica",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Geometria_analitica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:01.954781"
+  },
+  {
+    "id": "Trigonometria",
+    "titolo": "Trigonometria",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Trigonometria",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:02.101832"
+  },
+  {
+    "id": "Probabilit%C3%A0",
+    "titolo": "Probabilità",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Probabilit%C3%A0",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:02.326834"
+  },
+  {
+    "id": "Logaritmi",
+    "titolo": "Logaritmi",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Logaritmi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:02.697822"
+  },
+  {
+    "id": "Funzioni_goniometriche",
+    "titolo": "Funzioni goniometriche",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Funzioni_goniometriche",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:04.044267"
+  },
+  {
+    "id": "Derivate",
+    "titolo": "Derivate",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Derivate",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:04.883854"
+  },
+  {
+    "id": "Integrali",
+    "titolo": "Integrali",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Integrali",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:05.844626"
+  },
+  {
+    "id": "Limiti",
+    "titolo": "Limiti",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Limiti",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:06.288860"
+  },
+  {
+    "id": "Studio_di_funzione",
+    "titolo": "Studio di funzione",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Studio_di_funzione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:06.504081"
+  },
+  {
+    "id": "Statistica_inferenziale",
+    "titolo": "Statistica inferenziale",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Statistica_inferenziale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:07.173288"
+  },
+  {
+    "id": "Geometria_solida",
+    "titolo": "Geometria solida",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Geometria_solida",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:07.401297"
+  },
+  {
+    "id": "Analisi_matematica",
+    "titolo": "Analisi matematica",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Analisi_matematica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:07.620524"
+  },
+  {
+    "id": "Calcolo_combinatorio",
+    "titolo": "Calcolo combinatorio",
+    "materia": "matematica",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Calcolo_combinatorio",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:09.078200"
+  },
+  {
+    "id": "Geografia_fisica",
+    "titolo": "Geografia fisica",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Geografia_fisica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:09.601893"
+  },
+  {
+    "id": "Continenti",
+    "titolo": "Continenti",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Continenti",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:10.172918"
+  },
+  {
+    "id": "Carte_geografiche",
+    "titolo": "Carte geografiche",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Carte_geografiche",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:10.869704"
+  },
+  {
+    "id": "Popolazione_mondiale",
+    "titolo": "Popolazione mondiale",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Popolazione_mondiale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:11.178884"
+  },
+  {
+    "id": "Europa",
+    "titolo": "Europa",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Europa",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:11.282891"
+  },
+  {
+    "id": "Asia",
+    "titolo": "Asia",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Asia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:11.486198"
+  },
+  {
+    "id": "Africa",
+    "titolo": "Africa",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Africa",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:11.590327"
+  },
+  {
+    "id": "America",
+    "titolo": "America",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/America",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:11.705403"
+  },
+  {
+    "id": "Oceania",
+    "titolo": "Oceania",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Oceania",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:11.778168"
+  },
+  {
+    "id": "Geografia_economica",
+    "titolo": "Geografia economica",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Geografia_economica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:12.080454"
+  },
+  {
+    "id": "Agricoltura",
+    "titolo": "Agricoltura",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Agricoltura",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:12.333154"
+  },
+  {
+    "id": "Industria",
+    "titolo": "Industria",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Industria",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:12.811551"
+  },
+  {
+    "id": "Commercio_internazionale",
+    "titolo": "Commercio internazionale",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Commercio_internazionale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:12.956131"
+  },
+  {
+    "id": "Urbanizzazione",
+    "titolo": "Urbanizzazione",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Urbanizzazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:13.301489"
+  },
+  {
+    "id": "Geopolitica",
+    "titolo": "Geopolitica",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Geopolitica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:13.445695"
+  },
+  {
+    "id": "Globalizzazione",
+    "titolo": "Globalizzazione",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Globalizzazione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:13.489375"
+  },
+  {
+    "id": "Organizzazioni_internazionali",
+    "titolo": "Organizzazioni internazionali",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Organizzazioni_internazionali",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:14.002157"
+  },
+  {
+    "id": "Migrazioni",
+    "titolo": "Migrazioni",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Migrazioni",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:14.443003"
+  },
+  {
+    "id": "Cambiamenti_climatici",
+    "titolo": "Cambiamenti climatici",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Cambiamenti_climatici",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:15.542338"
+  },
+  {
+    "id": "Sostenibilit%C3%A0",
+    "titolo": "Sostenibilità",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Sostenibilit%C3%A0",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:15.914393"
+  },
+  {
+    "id": "Geografia_politica",
+    "titolo": "Geografia politica",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Geografia_politica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:16.280198"
+  },
+  {
+    "id": "Economia_globale",
+    "titolo": "Economia globale",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Economia_globale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:16.789915"
+  },
+  {
+    "id": "Cooperazione_internazionale",
+    "titolo": "Cooperazione internazionale",
+    "materia": "geografia",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Cooperazione_internazionale",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:17.470064"
+  },
+  {
+    "id": "Atomo",
+    "titolo": "Atomo",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Atomo",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:17.507027"
+  },
+  {
+    "id": "Molecole",
+    "titolo": "Molecole",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Molecole",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:17.691359"
+  },
+  {
+    "id": "Cellula",
+    "titolo": "Cellula",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Cellula",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:17.931096"
+  },
+  {
+    "id": "Tessuti",
+    "titolo": "Tessuti",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Tessuti",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:18.593989"
+  },
+  {
+    "id": "Energia",
+    "titolo": "Energia",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 1,
+    "fonte": "https://it.wikipedia.org/wiki/Energia",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:18.611206"
+  },
+  {
+    "id": "Reazioni_chimiche",
+    "titolo": "Reazioni chimiche",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Reazioni_chimiche",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:19.399018"
+  },
+  {
+    "id": "Sistema_nervoso",
+    "titolo": "Sistema nervoso",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Sistema_nervoso",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:19.489702"
+  },
+  {
+    "id": "Apparato_digerente",
+    "titolo": "Apparato digerente",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 2,
+    "fonte": "https://it.wikipedia.org/wiki/Apparato_digerente",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:19.531300"
+  },
+  {
+    "id": "Evoluzione",
+    "titolo": "Evoluzione",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Evoluzione",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:20.575323"
+  },
+  {
+    "id": "Genetica",
+    "titolo": "Genetica",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Genetica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:20.773941"
+  },
+  {
+    "id": "Tavola_periodica",
+    "titolo": "Tavola periodica",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Tavola_periodica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:21.609796"
+  },
+  {
+    "id": "Leggi_di_Newton",
+    "titolo": "Leggi di Newton",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 3,
+    "fonte": "https://it.wikipedia.org/wiki/Leggi_di_Newton",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:21.726008"
+  },
+  {
+    "id": "Fisica_moderna",
+    "titolo": "Fisica moderna",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Fisica_moderna",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:22.413290"
+  },
+  {
+    "id": "Relativit%C3%A0",
+    "titolo": "Relatività",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Relativit%C3%A0",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:22.930069"
+  },
+  {
+    "id": "Chimica_organica",
+    "titolo": "Chimica organica",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Chimica_organica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:23.074280"
+  },
+  {
+    "id": "Ecosistemi",
+    "titolo": "Ecosistemi",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Ecosistemi",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:23.340000"
+  },
+  {
+    "id": "Inquinamento",
+    "titolo": "Inquinamento",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 4,
+    "fonte": "https://it.wikipedia.org/wiki/Inquinamento",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:23.390917"
+  },
+  {
+    "id": "Biotecnologie",
+    "titolo": "Biotecnologie",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Biotecnologie",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:24.106265"
+  },
+  {
+    "id": "Nanotecnologie",
+    "titolo": "Nanotecnologie",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Nanotecnologie",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:24.755087"
+  },
+  {
+    "id": "Fisica_quantistica",
+    "titolo": "Fisica quantistica",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Fisica_quantistica",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:24.926257"
+  },
+  {
+    "id": "Scienze_della_Terra",
+    "titolo": "Scienze della Terra",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Scienze_della_Terra",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:25.289263"
+  },
+  {
+    "id": "Origine_della_vita",
+    "titolo": "Origine della vita",
+    "materia": "scienze",
+    "classe": "sec2",
+    "anno": 5,
+    "fonte": "https://it.wikipedia.org/wiki/Origine_della_vita",
+    "formato": "html",
+    "salvato_il": "2025-08-18T16:20:25.449217"
   }
 ]

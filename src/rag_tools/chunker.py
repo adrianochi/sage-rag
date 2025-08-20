@@ -5,9 +5,9 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict
 
-SOURCE_INDEX_PATH = "../data/fonte_index.json"
-CLEANED_DIR       = Path("../data/cleaned")
-CHUNK_DIR         = Path("../data/chunks")
+SOURCE_INDEX_PATH = "../../data/fonte_index.json"
+CLEANED_DIR       = Path("../../data/cleaned")
+CHUNK_DIR         = Path("../../data/chunks")
 
 CHUNK_SIZE_WORDS = 500
 OVERLAP_WORDS    = 50

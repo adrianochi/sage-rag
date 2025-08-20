@@ -2,8 +2,8 @@
 
 import json
 import re
-from llm_provider import get_llm
-from retriever_chain import build_rag_chain
+from services.llm_provider import get_llm
+from services.retriever_chain import build_rag_chain
 from services.prompt_builder import build_prompt
 
 
@@ -35,18 +35,18 @@ def generate_quiz_from_data(data):
     if any(field is None or field == "" for field in required_fields):
         return {"status": 4, "data": {}}
 
-    # 🚀 Inizializza LLM + RAG
+    # Inizializza LLM + RAG
     try:
         llm = get_llm(llm_provider)
         rag_chain = build_rag_chain(llm)
     except Exception:
-        # init fallito (es. chiave mancante, modello inesistente...)
+        #init fallito (es. chiave mancante, modello inesistente...)
         return {"status": 4, "data": {}}
 
-    # 🧱 Prompt super-esplicito (in ENG), output in ITA, JSON puro
+    # Prompt super-esplicito (in ENG), output in ITA, JSON puro
     prompt = build_prompt(quiz_type, category, difficulty)
 
-    # 🔎 Query RAG con filtri
+    # Query RAG con filtri
     rag_response = rag_chain.invoke({
         "query": prompt,
         "subject": category,
@@ -54,13 +54,13 @@ def generate_quiz_from_data(data):
         "anno": anno
     })
 
-    print("📚 RAG result raw:", rag_response.get("result", ""))
+    print("RAG result raw:", rag_response.get("result", ""))
 
-    # 🪵 Nessuna fonte rilevante
+    # Nessuna fonte rilevante
     if not rag_response.get("source_documents"):
         return {"status": 2, "data": {}}
 
-    # 📝 Parsing del JSON prodotto dall'LLM
+    # Parsing del JSON prodotto dall'LLM
     try:
         match = re.search(r"\{.*\}", rag_response["result"], re.DOTALL)
         if not match:
@@ -73,12 +73,12 @@ def generate_quiz_from_data(data):
         print("JSON PARSE FAILED:", str(e))
         return {"status": 3, "data": {}}
 
-    # 🛡️ Coerenza minima: forziamo la categoria a quella richiesta (evita drift del modello)
+    # Coerenza minima: forziamo la categoria a quella richiesta (evita drift del modello)
     # Se preferisci: invece di forzare potremmo fallire. Per ora forziamo.
     quiz_data["category"] = category
 
-    # ✅ Validazione contro JSON Schema del tipo specifico
-    #    Se non rispetta lo schema → status 4 (richiesta non valida secondo i requisiti)
+    # Validazione contro JSON Schema del tipo specifico
+    # Se non rispetta lo schema → status 4 (richiesta non valida secondo i requisiti)
     is_valid, error = validate_quiz_data(quiz_data)
     if not is_valid:
         print("SCHEMA VALIDATION FAILED:", error)

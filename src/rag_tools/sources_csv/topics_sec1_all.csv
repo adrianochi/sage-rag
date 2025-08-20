@@ -1,0 +1,59 @@
+materia,classe,anno,titolo,keyword_wikipedia
+matematica,sec1,1,Numeri interi,Numeri interi
+matematica,sec1,1,Frazioni,Frazione
+matematica,sec1,1,Numeri decimali,Numero decimale
+matematica,sec1,1,Proporzioni,Proporzione
+matematica,sec1,1,Percentuali,Percentuale
+matematica,sec1,1,Geometria piana: triangoli e quadrilateri,Poligono
+matematica,sec1,1,Circonferenza e cerchio,Cerchio
+matematica,sec1,1,Area delle figure geometriche,Area (geometria)
+matematica,sec1,2,Numeri razionali e irrazionali,Numero razionale
+matematica,sec1,2,Potenza e radice quadrata,Radice quadrata
+matematica,sec1,2,Equazioni di primo grado,Equazione di primo grado
+matematica,sec1,2,Pitagora e teorema di Pitagora,Teorema di Pitagora
+matematica,sec1,2,Geometria solida: prismi e piramidi,Solido geometrico
+matematica,sec1,2,"Cilindro, cono e sfera",Sfera
+matematica,sec1,2,"Perimetro, area e volume",Volume (matematica)
+matematica,sec1,3,Equazioni di secondo grado,Equazione di secondo grado
+matematica,sec1,3,Funzioni e grafici,Funzione matematica
+matematica,sec1,3,Similitudini e proporzionalità,Similitudine (geometria)
+matematica,sec1,3,Statistica descrittiva,Statistica descrittiva
+matematica,sec1,3,Probabilità,Probabilità
+matematica,sec1,3,Geometria analitica nel piano cartesiano,Geometria analitica
+geografia,sec1,1,Continenti e oceani,Continente
+geografia,sec1,1,Italia fisica: rilievi e fiumi,Geografia d'Italia
+geografia,sec1,1,Climi del mondo,Clima
+geografia,sec1,2,Europa fisica e politica,Europa
+geografia,sec1,2,Paesi e capitali europee,Unione europea
+geografia,sec1,2,Popolazione e distribuzione,Demografia
+geografia,sec1,3,Africa: fisica e politica,Africa
+geografia,sec1,3,Asia: fisica e politica,Asia
+geografia,sec1,3,America: fisica e politica,America
+geografia,sec1,3,Globalizzazione e sviluppo sostenibile,Globalizzazione
+scienze,sec1,1,Metodo scientifico,Metodo scientifico
+scienze,sec1,1,Cellula,Cellula
+scienze,sec1,1,Corpo umano: apparato digerente,Apparato digerente
+scienze,sec1,1,Corpo umano: apparato respiratorio,Apparato respiratorio
+scienze,sec1,1,Corpo umano: apparato circolatorio,Apparato circolatorio
+scienze,sec1,2,Corpo umano: sistema nervoso,Sistema nervoso
+scienze,sec1,2,Riproduzione e sessualità,Apparato riproduttore
+scienze,sec1,2,Ecosistemi,Ecosistema
+scienze,sec1,2,Catene alimentari,Catena alimentare
+scienze,sec1,2,Stati della materia,Stato della materia
+scienze,sec1,2,Atomi e molecole,Atomo
+scienze,sec1,3,Tavola periodica,Tavola periodica degli elementi
+scienze,sec1,3,Leggi di Newton,Leggi di Newton
+scienze,sec1,3,Energia e trasformazioni,Energia
+scienze,sec1,3,Elettricità e magnetismo,Elettromagnetismo
+scienze,sec1,3,Sistema solare e universo,Sistema solare
+italiano,sec1,1,Analisi grammaticale: parti del discorso,Grammatica italiana
+italiano,sec1,1,Analisi logica: soggetto e predicato,Analisi logica
+italiano,sec1,1,Fiaba e favola,Fiaba
+italiano,sec1,2,Analisi del periodo,Analisi del periodo
+italiano,sec1,2,Verbi e tempi verbali,Verbo
+italiano,sec1,2,Testo descrittivo e narrativo,Testo narrativo
+italiano,sec1,3,Testo argomentativo,Testo argomentativo
+italiano,sec1,3,Promessi sposi di Alessandro Manzoni,I Promessi Sposi
+italiano,sec1,3,Divina Commedia di Dante Alighieri,Divina Commedia
+italiano,sec1,3,Petrarca e il Canzoniere,Francesco Petrarca
+italiano,sec1,3,Boccaccio e il Decameron,Decameron

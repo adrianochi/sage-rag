@@ -1,12 +1,21 @@
+import os
+import random
+import hashlib
 from chromadb import PersistentClient
 from sentence_transformers import SentenceTransformer
 from langchain_groq import ChatGroq
 from langchain.schema import HumanMessage, SystemMessage
-import os
+
+# Evita warning dei tokenizers dopo fork
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 CHROMA_DIR = "../data/chroma_db"
 COLLECTION_NAME = "educational_chunks"
-CHUNK_LIMIT = 4
+
+# Quanti chunk vuoi passare al modello (fissi)
+CHUNK_LIMIT = 6
+# Quanti candidati recuperare dal DB prima della scelta random
+CANDIDATE_LIMIT = 30
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 chroma_client = PersistentClient(path=CHROMA_DIR)
@@ -17,9 +26,13 @@ llm = ChatGroq(
     api_key=os.getenv("GROQ_API_KEY")
 )
 
+def _hash_doc(text: str) -> str:
+    return hashlib.md5(text.strip().encode("utf-8")).hexdigest()
+
 def query_chunks(question: str, subject: str = None, classe: str = None, anno: int = None):
     embedding = embedder.encode(question).tolist()
 
+    # Costruzione filtro Chroma
     filters = {}
     if subject:
         filters["subject"] = subject
@@ -30,27 +43,49 @@ def query_chunks(question: str, subject: str = None, classe: str = None, anno: i
 
     query_args = {
         "query_embeddings": [embedding],
-        "n_results": CHUNK_LIMIT,
-        "include": ["documents", "metadatas"]
+        "n_results": CANDIDATE_LIMIT,
+        "include": ["documents", "metadatas"]  # ids utili se servono in futuro
     }
 
-    # 🔧 Fix per filtro compatibile con ChromaDB
     if len(filters) == 1:
-        # Se c'è solo un filtro, passalo diretto
         query_args["where"] = next(iter([{k: v} for k, v in filters.items()]))
     elif len(filters) > 1:
-        # Se ce ne sono più di uno, usa $and
         query_args["where"] = {"$and": [{k: v} for k, v in filters.items()]}
 
-    # 🔍 Debug (opzionale)
     print("🔎 Filtro usato:", query_args.get("where"))
 
     results = collection.query(**query_args)
 
-    docs = results["documents"][0]
-    metas = results["metadatas"][0]
+    # Flatten
+    cand_docs = results["documents"][0] if results["documents"] else []
+    cand_metas = results["metadatas"][0] if results["metadatas"] else []
 
-    print("📎 RISULTATI TROVATI:")
+    # Dedup sui testi (evita tri/cerchio ripetuti)
+    seen = set()
+    unique_pairs = []
+    for doc, meta in zip(cand_docs, cand_metas):
+        h = _hash_doc(doc)
+        if h in seen:
+            continue
+        seen.add(h)
+        unique_pairs.append((doc, meta))
+
+    if not unique_pairs:
+        print("⚠️ Nessun risultato utile dopo dedup.")
+        return [], []
+
+    # Shuffle randomico e pick dei 6 finali
+    random.shuffle(unique_pairs)
+    picked = unique_pairs[:CHUNK_LIMIT]
+
+    docs = [d for d, _ in picked]
+    metas = [m for _, m in picked]
+
+    print("📎 RISULTATI TROVATI (candidati):")
+    for i, meta in enumerate(cand_metas):
+        print(f" - {i+1}. subject={meta.get('subject')}, classe={meta.get('classe')}, anno={meta.get('anno')}, title={meta.get('title')}")
+
+    print("✅ SELEZIONATI (random, dedup):")
     for i, meta in enumerate(metas):
         print(f" - {i+1}. subject={meta.get('subject')}, classe={meta.get('classe')}, anno={meta.get('anno')}, title={meta.get('title')}")
 

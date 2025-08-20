@@ -1,20 +1,36 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MemoryQuiz",
   "type": "object",
-  "required": ["type", "category", "difficulty", "pairs"],
+  "additionalProperties": false,
+  "required": ["type", "category", "question", "difficulty", "pairs"],
   "properties": {
-    "type": { "type": "string", "enum": ["memory"] },
-    "category": { "type": "string" },
-    "difficulty": { "type": "integer", "minimum": 1, "maximum": 10 },
+    "type": {
+      "const": "memory"
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
     "pairs": {
       "type": "array",
-      "minItems": 1,
+      "minItems": 2,
       "items": {
         "type": "object",
-        "required": ["item1", "item2"],
+        "additionalProperties": false,
+        "required": ["front", "back"],
         "properties": {
-          "item1": { "type": "string" },
-          "item2": { "type": "string" }
+          "front": { "type": "string", "minLength": 1 },
+          "back": { "type": "string", "minLength": 1 }
         }
       }
     }

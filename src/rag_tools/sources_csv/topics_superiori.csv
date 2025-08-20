@@ -1,0 +1,126 @@
+materia,classe,anno,titolo,keyword_wikipedia
+italiano,sec2,1,Analisi del testo narrativo,Analisi_del_testo_narrativo
+italiano,sec2,1,Figure retoriche,Figure_retoriche
+italiano,sec2,1,Grammatica avanzata,Grammatica_avanzata
+italiano,sec2,1,Dante Alighieri,Dante_Alighieri
+italiano,sec2,1,Divina Commedia,Divina_Commedia
+italiano,sec2,2,Petrarca,Petrarca
+italiano,sec2,2,Boccaccio,Boccaccio
+italiano,sec2,2,Umanesimo,Umanesimo
+italiano,sec2,2,Rinascimento letterario,Rinascimento_letterario
+italiano,sec2,2,Analisi del testo poetico,Analisi_del_testo_poetico
+italiano,sec2,3,Ludovico Ariosto,Ludovico_Ariosto
+italiano,sec2,3,Torquato Tasso,Torquato_Tasso
+italiano,sec2,3,Illuminismo letterario,Illuminismo_letterario
+italiano,sec2,3,Parafrasi e commento,Parafrasi_e_commento
+italiano,sec2,3,Manzoni e i Promessi Sposi,Manzoni_e_i_Promessi_Sposi
+italiano,sec2,4,Romanticismo,Romanticismo
+italiano,sec2,4,Verismo,Verismo
+italiano,sec2,4,Leopardi,Leopardi
+italiano,sec2,4,Carducci,Carducci
+italiano,sec2,4,Decadentismo,Decadentismo
+italiano,sec2,5,Ungaretti,Ungaretti
+italiano,sec2,5,Montale,Montale
+italiano,sec2,5,Quasimodo,Quasimodo
+italiano,sec2,5,Ermetismo,Ermetismo
+italiano,sec2,5,Neorealismo,Neorealismo
+storia,sec2,1,Civiltà greca,Civiltà_greca
+storia,sec2,1,Civiltà romana,Civiltà_romana
+storia,sec2,1,Alto Medioevo,Alto_Medioevo
+storia,sec2,1,Basso Medioevo,Basso_Medioevo
+storia,sec2,1,Comune medievale,Comune_medievale
+storia,sec2,2,Umanesimo,Umanesimo
+storia,sec2,2,Rinascimento,Rinascimento
+storia,sec2,2,Scoperte geografiche,Scoperte_geografiche
+storia,sec2,2,Riforma protestante,Riforma_protestante
+storia,sec2,2,Controriforma,Controriforma
+storia,sec2,3,Rivoluzione francese,Rivoluzione_francese
+storia,sec2,3,Napoleone,Napoleone
+storia,sec2,3,Restaurazione,Restaurazione
+storia,sec2,3,Risorgimento,Risorgimento
+storia,sec2,3,Unità d’Italia,Unità_d’Italia
+storia,sec2,4,Prima guerra mondiale,Prima_guerra_mondiale
+storia,sec2,4,Periodo tra le due guerre,Periodo_tra_le_due_guerre
+storia,sec2,4,Fascismo,Fascismo
+storia,sec2,4,Nazismo,Nazismo
+storia,sec2,4,Seconda guerra mondiale,Seconda_guerra_mondiale
+storia,sec2,5,Guerra fredda,Guerra_fredda
+storia,sec2,5,ONU,ONU
+storia,sec2,5,Unione Europea,Unione_Europea
+storia,sec2,5,Globalizzazione,Globalizzazione
+storia,sec2,5,Storia contemporanea,Storia_contemporanea
+matematica,sec2,1,Algebra,Algebra
+matematica,sec2,1,Equazioni di primo grado,Equazioni_di_primo_grado
+matematica,sec2,1,Geometria euclidea,Geometria_euclidea
+matematica,sec2,1,Statistica descrittiva,Statistica_descrittiva
+matematica,sec2,1,Funzioni elementari,Funzioni_elementari
+matematica,sec2,2,Equazioni di secondo grado,Equazioni_di_secondo_grado
+matematica,sec2,2,Disequazioni,Disequazioni
+matematica,sec2,2,Geometria analitica,Geometria_analitica
+matematica,sec2,2,Trigonometria,Trigonometria
+matematica,sec2,2,Probabilità,Probabilità
+matematica,sec2,3,Logaritmi,Logaritmi
+matematica,sec2,3,Esponenziali,Esponenziali
+matematica,sec2,3,Funzioni goniometriche,Funzioni_goniometriche
+matematica,sec2,3,Derivate,Derivate
+matematica,sec2,3,Integrali,Integrali
+matematica,sec2,4,Limiti,Limiti
+matematica,sec2,4,Studio di funzione,Studio_di_funzione
+matematica,sec2,4,Probabilità avanzata,Probabilità_avanzata
+matematica,sec2,4,Statistica inferenziale,Statistica_inferenziale
+matematica,sec2,4,Geometria solida,Geometria_solida
+matematica,sec2,5,Analisi matematica,Analisi_matematica
+matematica,sec2,5,Integrali definiti,Integrali_definiti
+matematica,sec2,5,Serie numeriche,Serie_numeriche
+matematica,sec2,5,Calcolo combinatorio,Calcolo_combinatorio
+matematica,sec2,5,Geometria nello spazio,Geometria_nello_spazio
+geografia,sec2,1,Geografia fisica,Geografia_fisica
+geografia,sec2,1,Climi della Terra,Climi_della_Terra
+geografia,sec2,1,Continenti,Continenti
+geografia,sec2,1,Carte geografiche,Carte_geografiche
+geografia,sec2,1,Popolazione mondiale,Popolazione_mondiale
+geografia,sec2,2,Europa,Europa
+geografia,sec2,2,Asia,Asia
+geografia,sec2,2,Africa,Africa
+geografia,sec2,2,America,America
+geografia,sec2,2,Oceania,Oceania
+geografia,sec2,3,Geografia economica,Geografia_economica
+geografia,sec2,3,Agricoltura,Agricoltura
+geografia,sec2,3,Industria,Industria
+geografia,sec2,3,Commercio internazionale,Commercio_internazionale
+geografia,sec2,3,Urbanizzazione,Urbanizzazione
+geografia,sec2,4,Geopolitica,Geopolitica
+geografia,sec2,4,Globalizzazione,Globalizzazione
+geografia,sec2,4,Organizzazioni internazionali,Organizzazioni_internazionali
+geografia,sec2,4,Migrazioni,Migrazioni
+geografia,sec2,4,Energia e risorse,Energia_e_risorse
+geografia,sec2,5,Cambiamenti climatici,Cambiamenti_climatici
+geografia,sec2,5,Sostenibilità,Sostenibilità
+geografia,sec2,5,Geografia politica,Geografia_politica
+geografia,sec2,5,Economia globale,Economia_globale
+geografia,sec2,5,Cooperazione internazionale,Cooperazione_internazionale
+scienze,sec2,1,Atomo,Atomo
+scienze,sec2,1,Molecole,Molecole
+scienze,sec2,1,Cellula,Cellula
+scienze,sec2,1,Tessuti,Tessuti
+scienze,sec2,1,Energia,Energia
+scienze,sec2,2,Reazioni chimiche,Reazioni_chimiche
+scienze,sec2,2,Sistema nervoso,Sistema_nervoso
+scienze,sec2,2,Apparato digerente,Apparato_digerente
+scienze,sec2,2,Forze e movimento,Forze_e_movimento
+scienze,sec2,2,Lavoro ed energia,Lavoro_ed_energia
+scienze,sec2,3,Evoluzione,Evoluzione
+scienze,sec2,3,Genetica,Genetica
+scienze,sec2,3,DNA e RNA,DNA_e_RNA
+scienze,sec2,3,Tavola periodica,Tavola_periodica
+scienze,sec2,3,Leggi di Newton,Leggi_di_Newton
+scienze,sec2,4,Fisica moderna,Fisica_moderna
+scienze,sec2,4,Relatività,Relatività
+scienze,sec2,4,Chimica organica,Chimica_organica
+scienze,sec2,4,Ecosistemi,Ecosistemi
+scienze,sec2,4,Inquinamento,Inquinamento
+scienze,sec2,5,Biotecnologie,Biotecnologie
+scienze,sec2,5,Nanotecnologie,Nanotecnologie
+scienze,sec2,5,Fisica quantistica,Fisica_quantistica
+scienze,sec2,5,Scienze della Terra,Scienze_della_Terra
+scienze,sec2,5,Origine della vita,Origine_della_vita
