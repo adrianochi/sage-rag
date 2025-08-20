@@ -1,0 +1,25 @@
+flask==3.0.3
+
+beautifulsoup4==4.12.3
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-core==0.2.33
+langchain-groq==0.1.9
+langchain-anthropic
+anthropic
+
+chromadb==1.0.20
+
+transformers==4.44.2
+tokenizers==0.19.1
+sentence-transformers==3.0.1
+
+numpy==1.26.4
+pandas==2.2.2
+
+python-dotenv==1.0.1
+requests==2.32.3
+jsonschema==4.23.0
+
+# test
+pytest==8.3.2
