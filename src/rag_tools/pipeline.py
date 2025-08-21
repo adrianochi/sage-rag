@@ -10,10 +10,13 @@ Optional but recommended:
   unidecode (to help with URL slugs if you use non-ASCII titles)
 
 Usage examples:
-  python pipeline.py --csv topics_storia_primaria.csv --fresh-db
-  python pipeline.py --csv topics_storia_primaria.csv --limit 50
+  python pipeline.py                       # -> processa TUTTI i CSV in sources_csv/, poi embed
+  python pipeline.py --csv-dir sources_csv # -> idem, cartella custom
+  python pipeline.py --csv sources_csv/topics_storia_primaria.csv
+  python pipeline.py --csv-dir sources_csv --limit 50 --skip-embed
+  python pipeline.py --csv-dir sources_csv --fresh-db
 
-Directory layout created under ./data :
+Directory layout creato sotto ./data :
   data/raw/       (downloaded HTML)
   data/cleaned/   (plain text extracted)
   data/chunks/    (jsonl chunks)
@@ -22,13 +25,14 @@ Directory layout created under ./data :
 
 CSV columns expected:
   materia, classe, anno, titolo, keyword_wikipedia
-- materia: 'storia'
-- classe : 'prim' (for primary school)  [kept for your schema compatibility]
-- anno   : 1..5
+- materia: 'storia' | 'geografia' | ecc.
+- classe : 'prim' | 'sec1' | 'sec2'
+- anno   : intero (es. 1..5)
 - titolo : human-friendly topic name
-- keyword_wikipedia: page title to fetch on it.wikipedia.org
+- keyword_wikipedia: page title su it.wikipedia.org
 
-The script is idempotent: if a raw HTML already exists, it skips re-downloading (unless --force).
+Idempotente: se l'HTML grezzo esiste, salta il download (a meno di --force).
+Batch embed eseguito UNA volta alla fine di tutti i CSV (a meno di --skip-embed).
 """
 
 import os, re, csv, json, sys, time, shutil, argparse
@@ -40,12 +44,14 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 # ----------------- Config -----------------
-DATA_DIR      = Path("../data")
+DATA_DIR      = Path("../../data")
 RAW_DIR       = DATA_DIR / "raw"
 CLEANED_DIR   = DATA_DIR / "cleaned"
 CHUNKS_DIR    = DATA_DIR / "chunks"
 CHROMA_DIR    = DATA_DIR / "chroma_db"
 SOURCE_INDEX  = DATA_DIR / "fonte_index.json"
+
+DEFAULT_CSV_DIR = Path("sources_csv")
 
 CHUNK_SIZE = 500   # words
 OVERLAP    = 50    # words
@@ -62,7 +68,6 @@ def page_url_from_keyword(keyword: str) -> str:
     return WIKI_BASE + quote(safe_slug(keyword))
 
 def clean_filename_from_url(url: str) -> str:
-    # Use path as filename
     path = url.split("/wiki/", 1)[-1]
     return path.replace("/", "_") or "index"
 
@@ -83,7 +88,6 @@ def save_fonte_index(idx):
 
 def upsert_source_metadata(source):
     idx = load_fonte_index()
-    # replace if id exists
     kept = [s for s in idx if s.get("id") != source["id"]]
     kept.append(source)
     save_fonte_index(kept)
@@ -105,7 +109,6 @@ def download_html(url: str, force: bool=False, user_agent: str="Mozilla/5.0"):
 def extract_text_from_html(html_path: Path) -> Path:
     html = html_path.read_text(encoding="utf-8", errors="ignore")
     soup = BeautifulSoup(html, "html.parser")
-    # Wikipedia commonly places content in #mw-content-text
     content = soup.find("div", {"id": "mw-content-text"}) or soup.find("article") or soup.body
     tags = content.find_all(["h1", "h2", "h3", "p", "li"]) if content else []
     text = "\n\n".join(t.get_text(" ", strip=True) for t in tags).strip()
@@ -126,12 +129,10 @@ def split_into_chunks(text: str, size: int=CHUNK_SIZE, overlap: int=OVERLAP):
         chunks.append(" ".join(words[start:end]))
         if end == n:
             break
-        start = end - overlap
-        if start < 0:
-            start = 0
+        start = max(0, end - overlap)
     return chunks
 
-def chunk_and_write(source_id: str, title: str, subject: str, classe: str, anno: int, cleaned_path: Path) -> Path:
+def chunk_and_write(source_id: str, title: str, subject: str, classe: str, anno: int, cleaned_path: Path):
     raw_text = cleaned_path.read_text(encoding="utf-8")
     chunks = split_into_chunks(raw_text)
     out_path = CHUNKS_DIR / f"{source_id}.jsonl"
@@ -167,7 +168,7 @@ def embed_all(chroma_dir: Path = CHROMA_DIR, batch_size: int = BATCH_SIZE):
             for _ in f:
                 total += 1
 
-    print(f"Embedding ~{total} chunks from {len(files)} files ...")
+    print(f"\nEmbedding ~{total} chunks da {len(files)} file ...")
     docs, ids, metas = [], [], []
     k = 0
 
@@ -178,8 +179,8 @@ def embed_all(chroma_dir: Path = CHROMA_DIR, batch_size: int = BATCH_SIZE):
         embeds = model.encode(docs, convert_to_numpy=True).tolist()
         col.add(ids=ids, documents=docs, metadatas=metas, embeddings=embeds)
         k += len(docs)
-        print(f"  -> added {len(docs)} (total {k})")
-        docs, ids, metas = [], [], []
+        print(f"  -> aggiunti {len(docs)} (totale {k})")
+        docs.clear(); ids.clear(); metas.clear()
 
     for fp in files:
         with fp.open("r", encoding="utf-8") as f:
@@ -198,49 +199,45 @@ def embed_all(chroma_dir: Path = CHROMA_DIR, batch_size: int = BATCH_SIZE):
                 if len(docs) >= batch_size:
                     flush()
     flush()
-    print(f"Done. Collection count cannot be known here reliably without extra calls.")
+    print("Done. (Il count esatto della collection richiede una query separata.)")
 
-# ----------------- Main -----------------
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--csv", required=True, help="CSV with topics (materia,classe,anno,titolo,keyword_wikipedia)")
-    ap.add_argument("--limit", type=int, default=0, help="Process at most N rows (0 = all)")
-    ap.add_argument("--force", action="store_true", help="Force redownload of raw HTML")
-    ap.add_argument("--fresh-db", action="store_true", help="Reset ChromaDB directory before embedding")
-    ap.add_argument("--skip-embed", action="store_true", help="Do everything except the final embed step")
-    args = ap.parse_args()
+# ----------------- Core -----------------
+def process_csv_file(csv_path: Path, limit: int = 0, force: bool = False):
+    """Processa un singolo CSV end-to-end (download -> clean -> chunk)."""
+    print(f"\n>>> Processing CSV: {csv_path.name}")
+    try:
+        with open(csv_path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+    except Exception as e:
+        print(f"[SKIP FILE] {csv_path}: {e}")
+        return
 
-    ensure_dirs()
+    if limit and limit > 0:
+        rows = rows[:limit]
 
-    if args.fresh_db and CHROMA_DIR.exists():
-        print("Resetting ChromaDB directory ...")
-        shutil.rmtree(CHROMA_DIR, ignore_errors=True)
-
-    # Read CSV
-    with open(args.csv, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-
-    if args.limit > 0:
-        rows = rows[:args.limit]
-
-    for r in tqdm(rows, desc="Processing topics"):
-        materia = r["materia"].strip()
-        classe  = r["classe"].strip()
-        anno    = int(r["anno"])
-        titolo  = r["titolo"].strip()
-        kw      = r["keyword_wikipedia"].strip()
-
+    for r in tqdm(rows, desc=f"Topics ({csv_path.name})"):
+        try:
+            materia = r["materia"].strip()
+            classe  = r["classe"].strip()
+            anno    = int(r["anno"])
+            titolo  = r["titolo"].strip()
+            kw      = r["keyword_wikipedia"].strip()
+        except KeyError as e:
+            print(f"[SKIP ROW] Colonna mancante {e} in {csv_path.name}")
+            continue
+        except Exception as e:
+            print(f"[SKIP ROW] Errore parsing riga in {csv_path.name}: {e}")
+            continue
 
         url = page_url_from_keyword(kw)
         try:
-            filename, raw_path = download_html(url, force=args.force)
+            filename, raw_path = download_html(url, force=force)
         except Exception as e:
             print(f"[SKIP] {kw} -> {e}")
             continue
 
         source_id = filename.replace(".html", "")
-        # Register/update metadata (non-interactive)
         upsert_source_metadata({
             "id": source_id,
             "titolo": titolo,
@@ -252,11 +249,8 @@ def main():
             "salvato_il": datetime.now().isoformat()
         })
 
-        # Clean
         cleaned_path = extract_text_from_html(raw_path)
-
-        # Chunk
-        chunk_path, n_chunks = chunk_and_write(
+        _, n_chunks = chunk_and_write(
             source_id=source_id,
             title=titolo,
             subject=materia,
@@ -264,8 +258,55 @@ def main():
             anno=anno,
             cleaned_path=cleaned_path
         )
-        # feedback line
         print(f"  -> {kw}: {n_chunks} chunks")
+
+# ----------------- Main -----------------
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--csv", help="Singolo CSV (materia,classe,anno,titolo,keyword_wikipedia)")
+    ap.add_argument("--csv-dir", default=str(DEFAULT_CSV_DIR), help="Cartella con più CSV (default: sources_csv)")
+    ap.add_argument("--limit", type=int, default=0, help="Processa al massimo N righe per CSV (0 = tutte)")
+    ap.add_argument("--force", action="store_true", help="Forza redownload HTML anche se esiste")
+    ap.add_argument("--fresh-db", action="store_true", help="Resetta la cartella ChromaDB prima dell'embed finale")
+    ap.add_argument("--skip-embed", action="store_true", help="Esegue tutto tranne l'embed finale")
+    args = ap.parse_args()
+
+    ensure_dirs()
+
+    if args.fresh_db and CHROMA_DIR.exists():
+        print("Resetting ChromaDB directory ...")
+        shutil.rmtree(CHROMA_DIR, ignore_errors=True)
+
+    csv_paths = []
+
+    # 1) Se è passato --csv, usalo
+    if args.csv:
+        p = Path(args.csv)
+        if p.exists() and p.is_file():
+            csv_paths.append(p)
+        else:
+            print(f"[WARN] --csv non trovato: {p}")
+
+    # 2) Aggiungi tutti i .csv nella cartella --csv-dir (default: sources_csv/)
+    if args.csv_dir:
+        dir_path = Path(args.csv_dir)
+        if dir_path.exists() and dir_path.is_dir():
+            found = sorted(dir_path.glob("*.csv"))
+            if found:
+                # Evita duplicati se lo stesso file è già in lista
+                existing = {str(p.resolve()) for p in csv_paths}
+                csv_paths += [p for p in found if str(p.resolve()) not in existing]
+        else:
+            print(f"[WARN] Cartella CSV non trovata: {dir_path}")
+
+    # 3) Se non c'è nulla, prova default 'sources_csv/' come fallback (già gestito da default arg)
+    if not csv_paths:
+        print("[ERROR] Nessun CSV trovato. Passa --csv o metti file in sources_csv/.")
+        sys.exit(1)
+
+    print(f"Trovati {len(csv_paths)} file CSV da processare.")
+    for csv_file in csv_paths:
+        process_csv_file(csv_file, limit=args.limit, force=args.force)
 
     if not args.skip_embed:
         embed_all()

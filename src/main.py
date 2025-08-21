@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-@app.route("/form", methods=["GET", "POST"])
+@app.route("/generate_quiz", methods=["GET", "POST"])
 def quiz_form():
     if request.method == "POST":
         if request.is_json:

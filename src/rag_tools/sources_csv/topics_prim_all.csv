@@ -76,7 +76,6 @@ storia,prim,5,Unità d'Italia,Risorgimento
 storia,prim,5,Giuseppe Garibaldi,Giuseppe Garibaldi
 storia,prim,5,"Camillo Benso, conte di Cavour","Camillo Benso, conte di Cavour"
 storia,prim,5,Vittorio Emanuele II,Vittorio Emanuele II
-materia,classe,anno,titolo,keyword_wikipedia
 geografia,prim,1,Spazio vicino e lontano,Spazio
 geografia,prim,1,Orientamento nello spazio,Orientamento (geografia)
 geografia,prim,1,Destra e sinistra,Destra e sinistra
@@ -112,7 +111,6 @@ geografia,prim,5,Antartide,Antartide
 geografia,prim,5,Climi del mondo,Clima
 geografia,prim,5,Popolazione mondiale,Demografia
 geografia,prim,5,"Carte tematiche (fisiche, politiche, economiche)",Carta tematica
-materia,classe,anno,titolo,keyword_wikipedia
 italiano,prim,1,Alfabeto,Alfabeto italiano
 italiano,prim,1,Vocali e consonanti,Vocale
 italiano,prim,1,Sillabe,Sillaba
@@ -154,7 +152,6 @@ italiano,prim,5,Testo poetico,Poesia
 italiano,prim,5,Testo espositivo,Testo espositivo
 italiano,prim,5,Testo argomentativo (introduzione),Testo argomentativo
 italiano,prim,5,Comprensione e riassunto di un testo,Riassunto
-materia,classe,anno,titolo,keyword_wikipedia
 italiano,prim,1,Alfabeto,Alfabeto italiano
 italiano,prim,1,Vocali e consonanti,Vocale
 italiano,prim,1,Sillabe,Sillaba
@@ -196,7 +193,6 @@ italiano,prim,5,Testo poetico,Poesia
 italiano,prim,5,Testo espositivo,Testo espositivo
 italiano,prim,5,Testo argomentativo (introduzione),Testo argomentativo
 italiano,prim,5,Comprensione e riassunto di un testo,Riassunto
-materia,classe,anno,titolo,keyword_wikipedia
 matematica,prim,1,Numeri da 0 a 20,Numeri naturali
 matematica,prim,1,Concetto di zero,Zero
 matematica,prim,1,Contare avanti e indietro,Contare
@@ -258,7 +254,6 @@ matematica,prim,5,Coordinate nel piano,Piano cartesiano
 matematica,prim,5,Media aritmetica,Media aritmetica
 matematica,prim,5,"Statistica di base (conteggi, grafici)",Statistica descrittiva
 matematica,prim,5,Probabilità elementare,Probabilità
-materia,classe,anno,titolo,keyword_wikipedia
 scienze,prim,1,I cinque sensi,Cinque sensi
 scienze,prim,1,Il corpo umano (parti principali),Corpo umano
 scienze,prim,1,Gli animali domestici,Animale domestico
