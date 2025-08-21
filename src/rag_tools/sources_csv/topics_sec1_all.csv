@@ -57,3 +57,28 @@ italiano,sec1,3,Promessi sposi di Alessandro Manzoni,I Promessi Sposi
 italiano,sec1,3,Divina Commedia di Dante Alighieri,Divina Commedia
 italiano,sec1,3,Petrarca e il Canzoniere,Francesco Petrarca
 italiano,sec1,3,Boccaccio e il Decameron,Decameron
+materia,classe,anno,titolo,keyword_wikipedia
+storia,sec1,1,Preistoria,Preistoria
+storia,sec1,1,Antica Mesopotamia,Mesopotamia
+storia,sec1,1,Antico Egitto,Antico_Egitto
+storia,sec1,1,Civiltà greca,Antica_Grecia
+storia,sec1,1,Civiltà romana,Antica_Roma
+storia,sec1,1,Caduta dell'Impero romano d'Occidente,Caduta_dell%27Impero_romano_d%27Occidente
+storia,sec1,2,Medioevo,Medioevo
+storia,sec1,2,Feudalesimo,Feudalesimo
+storia,sec1,2,Impero bizantino,Impero_bizantino
+storia,sec1,2,Islam e califfati,Califfato
+storia,sec1,2,Crociate,Crociate
+storia,sec1,2,Comuni e signorie,Comuni_medievali
+storia,sec1,2,Rinascimento,Rinascimento
+storia,sec1,2,Scoperte geografiche,Scoperte_geografiche
+storia,sec1,3,Riforma protestante,Riforma_protestante
+storia,sec1,3,Controriforma,Controriforma
+storia,sec1,3,Assolutismo e Luigi XIV,Luigi_XIV_di_Francia
+storia,sec1,3,Illuminismo,Illuminismo
+storia,sec1,3,Rivoluzione francese,Rivoluzione_francese
+storia,sec1,3,Rivoluzione industriale,Rivoluzione_industriale
+storia,sec1,3,Risorgimento italiano,Risorgimento
+storia,sec1,3,Prima guerra mondiale,Prima_guerra_mondiale
+storia,sec1,3,Seconda guerra mondiale,Seconda_guerra_mondiale
+storia,sec1,3,Costituzione italiana,Costituzione_della_Repubblica_Italiana
